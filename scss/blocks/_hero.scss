@@ -1,0 +1,87 @@
+.hero__container{
+  background-image: url(/images/Bitmap.png);
+  background-repeat: no-repeat;
+  max-width: 1400px;
+  height: 650px;
+  padding-left: 0px;
+}
+
+.hero__title{
+  width: 500px;
+  color: $white-color;
+  font-size: 56px;
+  letter-spacing: -2.5px;
+  margin: auto;
+  padding: auto;
+}
+.hero__box{
+  width: 800px;
+  padding-top: 130px;
+}
+
+.hero__text{
+  width: 405px;
+  font-family: 'Lexend Deca', sans-serif;
+  color: $white-color;
+  padding-bottom: 40px;
+}
+
+.hero__btn{
+  width: 180px;
+  height: 53px;
+  border: none;
+  background-color: $yellow-color;
+  color: $white-color;
+  font-weight: 700;
+}
+
+.hero__btn:hover {
+  transition: all 1s ease;
+  background-color: transparent;
+  border: 3px solid $yellow-color;
+  color: $yellow-color;
+}
+
+@media only screen and (max-width: 500px){
+
+  .hero__container{
+    background-image: url(/images/scoot-mobile.png);
+    background-size: cover;
+    align-items: center;
+    width: 400px;
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  .hero__box{
+    text-align: center;
+    width: 410px;
+    padding-top: 93px;
+  }
+
+  .hero__mini-box{
+    text-align: center;
+    width: 410px;
+  }
+
+  .hero__title{
+    font-size: 46px;
+    width: 370px;
+  }
+
+  .hero__text{
+    width: 300px;
+    margin: auto;
+  }
+
+  .hero__img{
+    width: 0px;
+  }
+
+  .hero__img-2{
+    width: 170px;
+    position: absolute;
+    top: 530px;
+    left: 9px;
+  }
+}

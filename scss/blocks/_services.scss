@@ -1,0 +1,130 @@
+.services__container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 150px;
+}
+
+.services__title{
+  color: $dark__navy-color;
+  font-size: 24px;
+  letter-spacing: -1.071px;
+  padding: auto;
+  margin: auto;
+}
+
+.services__text{
+  width: 350px;
+  color: $dim__grey-color;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.services__container-2{
+  display: flex;
+  max-width: 1400px;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 180px;
+}
+
+.services__box{
+  background-image: url(/images/Group\ 16\ \(1\).png);
+  background-position: right center;
+  background-size: 500px;
+  background-repeat: no-repeat;
+  width: 550px;
+  height: 400px;
+}
+
+.services__box-2{
+  background-image: url(/images/Group\ 14\ \(1\).png);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  width: 550px;
+  height: 400px;
+}
+
+.services__box-3{
+  background-image: url(/images/Group\ 16.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 600px;
+  width: 600px;
+  height: 500px;
+}
+
+.services__box-title{
+  color: $dark__navy-color;
+  font-size: 48px;
+  letter-spacing: -2.2px;
+  width: 445px;
+  height: 110px;
+
+}
+
+.services__box-text{
+  width: 445px;
+  color: $dim__grey-color;
+  font-family: 'Lexend Deca', sans-serif;
+  padding-bottom: 25px;
+}
+
+.services__box-btn{
+  width: 180px;
+  height: 53px;
+  border: none;
+  background-color: $yellow-color;
+  color: $white-color;
+  font-weight: 700;
+}
+
+.services__box-btn:hover {
+  transition: all 1s ease;
+  background-color: transparent;
+  border: 3px solid $yellow-color;
+  color: $yellow-color;
+}
+
+@media only screen and (max-width: 500px){
+
+  .services__container{
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .services__mini-box{
+    text-align: center;
+  }
+  .services__container-2{
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+  }
+
+  .services__box{
+    width: 0px;
+    height: 0px;
+  }
+   .services__box-2{
+    width: 0px;
+    height: 0px;
+  }
+   .services__box-3{
+    width: 0px;
+    height: 0px;
+  }
+
+  .services__img{
+    width: 400px;
+  }
+
+  .services__box-title{
+    font-size: 43px;
+    width: 400px;
+  }
+
+  .services__box-text{
+    width: 340px;
+    margin: auto;
+  }
+}
